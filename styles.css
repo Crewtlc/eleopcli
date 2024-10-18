@@ -55,7 +55,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(186, 234, 128, 0.6);
+  background-color: rgba(188, 208, 224, 0.6);
 }
 
 .content {
@@ -90,4 +90,29 @@ button {
 
 button:hover {
   background-color: #004d99;
+}
+
+.footer {
+  background-color: #f8f9fa; /* Light background for the footer */
+  padding: 20px; /* Padding around the footer content */
+  text-align: center; /* Center the text */
+   /* Optional border for separation */
+}
+
+.footer h3 {
+  font-size: 18px; /* Size of the text */
+  color: #000000; /* Darker color for the heading */
+  margin: 0; /* Remove default margins */
+  font-style: italic;
+}
+
+.footer .name {
+  font-weight: bold; /* Bold the name */
+  color: #000000; /* Optional: Make the name blue */
+  font-style: italic;
+}
+
+.footer h3 span.name:hover {
+  color: #0b0b0b; /* Change the name color on hover */
+  cursor: pointer; /* Optional: Change cursor on hover */
 }
